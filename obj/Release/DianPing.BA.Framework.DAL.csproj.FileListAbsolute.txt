@@ -1,0 +1,15 @@
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\bin\Release\DianPing.BA.Framework.DAL.dll
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\bin\Release\DianPing.BA.Framework.DAL.pdb
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\bin\Release\MySql.Data.dll
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\obj\Release\ResolveAssemblyReference.cache
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\obj\Release\DianPing.BA.Framework.DAL.dll
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\obj\Release\DianPing.BA.Framework.DAL.pdb
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\bin\Release\Microsoft.Dynamic.dll
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\bin\Release\NVelocity.dll
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\bin\Release\StrongCutIn.dll
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\bin\Release\Microsoft.Scripting.dll
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\bin\Release\StrongCutIn.pdb
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\obj\Release\DianPing.BA.Framework.DAL.DACBase.SqlTemp.resources
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\obj\Release\GenerateResource.read.1.tlog
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\obj\Release\GenerateResource.write.1.tlog
+E:\work\csharp\DianPing.BA.Framework\DAL\DAL\bin\Release\Cat.dll

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DianPing.BA.Framework.DAL.SqlServer" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQAAAAAAAAAAAAAAAAAAAAAAAAIAAAggAEABAQAAA=</HashCode>
+      <FileName>SqlServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.AdoHelper" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAQIACAgEAAAKQECBUEAECAgAAAIEABgkAEABIAAAA=</HashCode>
+      <FileName>AdoHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.ADOHelperParameterCache" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACAAAAABAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ADOHelperParameterCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.CoursorType" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoursorType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.DAABSectionHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAABSectionHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.ProviderAlias" Collapsed="true">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAEAACAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAABSectionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.DbConnectionStore" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>DbConnectionStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.DbUtil" Collapsed="true">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACCAAEIAkAABAAIAAAwACIAAEAgACAgIIAACCAAQA=</HashCode>
+      <FileName>DbUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.Field" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAgASAAAAAAAAAAFAIAAFQEAAQQApQCAAKAIEA=</HashCode>
+      <FileName>Field.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.MappingStore" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>MappingStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.MappingInfo" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAABAQAAA=</HashCode>
+      <FileName>MappingStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.CommandInfo" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAASAgAAAAAAISAAAAAAAAAAAAAAAAAAAAgAAAIAQQ=</HashCode>
+      <FileName>MappingStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.ReturnObject" Collapsed="true">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAQCAA=</HashCode>
+      <FileName>MappingStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.Odbc" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACACAAAAAAAAAAAAAAAAAAAIAAAgAAEABAQAAA=</HashCode>
+      <FileName>Odbc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.OleDb" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAAgAAEABAQAAA=</HashCode>
+      <FileName>OleDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.Oracle" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAAgAAEABAQAAA=</HashCode>
+      <FileName>Oracle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.Param" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Param.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DianPing.BA.Framework.DAL.Query4Entity" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAgAAAAQBEAAAAAAAAAABAAAAAAAAAQg=</HashCode>
+      <FileName>Query4Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DianPing.BA.Framework.DAL.DbProvideType" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAACAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>DbProvideType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
