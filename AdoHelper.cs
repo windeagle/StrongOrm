@@ -79,28 +79,31 @@ namespace DianPing.BA.Framework.DAL
                 return ADOCache[providerAlias];
             if (providerAlias == "OleDb")
                 ADOCache.Add(providerAlias, new OleDb());
-            if (providerAlias == "Oracle")
+            else if (providerAlias == "Oracle")
                 ADOCache.Add(providerAlias, new Oracle());
-            if (providerAlias == "SqlServer")
+            else if (providerAlias == "SqlServer")
                 ADOCache.Add(providerAlias, new SqlServer());
-            if (providerAlias == "Odbc")
+            else if (providerAlias == "Odbc")
                 ADOCache.Add(providerAlias, new Odbc());
-            if (providerAlias == "MySql")
+            else if (providerAlias == "MySql")
                 ADOCache.Add(providerAlias, new MySql());
-            Dictionary<string, ProviderAlias> config =
-                WebConfigurationManager.GetSection("daabProviders") as Dictionary<string, ProviderAlias>;
-            if (config != null)
-            {
-                var ado = CreateHelper(config[providerAlias.ToLower()].AssemblyName,
-                                       config[providerAlias.ToLower()].TypeName);
-                lock (LockObjADOCache)
-                {
-                    if (!ADOCache.ContainsKey(providerAlias))
-                        ADOCache.Add(providerAlias, ado);
-                }
-            }
             else
-                throw new ArgumentException("Invalid Provider Name");
+            {
+                Dictionary<string, ProviderAlias> config =
+                    WebConfigurationManager.GetSection("daabProviders") as Dictionary<string, ProviderAlias>;
+                if (config != null)
+                {
+                    var ado = CreateHelper(config[providerAlias.ToLower()].AssemblyName,
+                                           config[providerAlias.ToLower()].TypeName);
+                    lock (LockObjADOCache)
+                    {
+                        if (!ADOCache.ContainsKey(providerAlias))
+                            ADOCache.Add(providerAlias, ado);
+                    }
+                }
+                else
+                    throw new ArgumentException("Invalid Provider Name");
+            }
             return ADOCache[providerAlias];
         }
 

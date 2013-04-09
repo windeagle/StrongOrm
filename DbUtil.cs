@@ -15,9 +15,9 @@ namespace DianPing.BA.Framework.DAL
 
         private static readonly object LockObjPropertyList = new object();
 
-        //static DbUtil()
-        //{
-        //}
+        static DbUtil()
+        {
+        }
 
         /// <summary>
         ///   NOTE: 不建议直接使用因为不是从缓存获取

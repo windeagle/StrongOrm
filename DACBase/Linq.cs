@@ -316,6 +316,9 @@ namespace DianPing.BA.Framework.DAL.DACBase
 
         protected IList<IWhereCondition> _whereConditions = new List<IWhereCondition>();
         protected IList<string> _includeColumnList;
+
+        public IList<string> IncludeColumnList { get { return _includeColumnList; } }
+
         protected IList<string> _excludeColumnList;
         
         public LinqDAC<T> SqlInclude(Expression<ColumnListDelegate<T>> columnListDelegate)
